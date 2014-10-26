@@ -1,15 +1,12 @@
 C:\Users\Sugar\Documents\Visual Studio 2010\Projects\Proyecto calculadoras\Proyecto calculadoras\bin\Debug\Proyecto calculadoras.exe
 C:\Users\Sugar\Documents\Visual Studio 2010\Projects\Proyecto calculadoras\Proyecto calculadoras\bin\Debug\Proyecto calculadoras.pdb
 C:\Users\Sugar\Documents\Visual Studio 2010\Projects\Proyecto calculadoras\Proyecto calculadoras\bin\Debug\Proyecto calculadoras.xml
-C:\Users\Sugar\Documents\Visual Studio 2010\Projects\Proyecto calculadoras\Proyecto calculadoras\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Sugar\Documents\Visual Studio 2010\Projects\Proyecto calculadoras\Proyecto calculadoras\obj\x86\Debug\Proyecto_calculadoras.Form1.resources
 C:\Users\Sugar\Documents\Visual Studio 2010\Projects\Proyecto calculadoras\Proyecto calculadoras\obj\x86\Debug\Proyecto_calculadoras.Form2.resources
 C:\Users\Sugar\Documents\Visual Studio 2010\Projects\Proyecto calculadoras\Proyecto calculadoras\obj\x86\Debug\Proyecto_calculadoras.Resources.resources
-C:\Users\Sugar\Documents\Visual Studio 2010\Projects\Proyecto calculadoras\Proyecto calculadoras\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Sugar\Documents\Visual Studio 2010\Projects\Proyecto calculadoras\Proyecto calculadoras\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Sugar\Documents\Visual Studio 2010\Projects\Proyecto calculadoras\Proyecto calculadoras\obj\x86\Debug\Proyecto calculadoras.exe
 C:\Users\Sugar\Documents\Visual Studio 2010\Projects\Proyecto calculadoras\Proyecto calculadoras\obj\x86\Debug\Proyecto calculadoras.xml
 C:\Users\Sugar\Documents\Visual Studio 2010\Projects\Proyecto calculadoras\Proyecto calculadoras\obj\x86\Debug\Proyecto calculadoras.pdb
 C:\Users\Sugar\Documents\Visual Studio 2010\Projects\Proyecto calculadoras\Proyecto calculadoras\obj\x86\Debug\Proyecto_calculadoras.Form3.resources
-C:\Users\Sugar\Documents\Visual Studio 2010\Projects\Proyecto calculadoras\Proyecto calculadoras\obj\x86\Debug\GenerateResource.write.74.tlog
 C:\Users\Sugar\Documents\Visual Studio 2010\Projects\Proyecto calculadoras\Proyecto calculadoras\obj\x86\Debug\Proyecto_calculadoras.Form4.resources
+C:\Users\Sugar\Documents\Visual Studio 2010\Projects\Proyecto calculadoras\Proyecto calculadoras\obj\x86\Debug\Proyecto calculadoras.vbproj.GenerateResource.Cache

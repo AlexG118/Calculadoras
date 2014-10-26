@@ -46,13 +46,21 @@ Partial Class Form4
         Me.Btn2 = New System.Windows.Forms.Button()
         Me.Btn1 = New System.Windows.Forms.Button()
         Me.Txt2 = New System.Windows.Forms.TextBox()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Txt4 = New System.Windows.Forms.TextBox()
+        Me.BtnConvertir = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Txt3 = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'BtnVolver1
         '
         Me.BtnVolver1.BackColor = System.Drawing.Color.Black
         Me.BtnVolver1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnVolver1.Font = New System.Drawing.Font("PT Serif", 25.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnVolver1.Font = New System.Drawing.Font("Open Sans", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnVolver1.ForeColor = System.Drawing.Color.White
         Me.BtnVolver1.Location = New System.Drawing.Point(394, 438)
         Me.BtnVolver1.Name = "BtnVolver1"
@@ -65,7 +73,7 @@ Partial Class Form4
         '
         Me.BtnDividir.BackColor = System.Drawing.Color.Black
         Me.BtnDividir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnDividir.Font = New System.Drawing.Font("PT Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnDividir.Font = New System.Drawing.Font("Open Sans", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnDividir.ForeColor = System.Drawing.Color.White
         Me.BtnDividir.Location = New System.Drawing.Point(287, 421)
         Me.BtnDividir.Name = "BtnDividir"
@@ -78,7 +86,7 @@ Partial Class Form4
         '
         Me.BtnMultiplicar.BackColor = System.Drawing.Color.Black
         Me.BtnMultiplicar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnMultiplicar.Font = New System.Drawing.Font("PT Serif", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnMultiplicar.Font = New System.Drawing.Font("Open Sans", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnMultiplicar.ForeColor = System.Drawing.Color.White
         Me.BtnMultiplicar.Location = New System.Drawing.Point(287, 335)
         Me.BtnMultiplicar.Name = "BtnMultiplicar"
@@ -91,7 +99,7 @@ Partial Class Form4
         '
         Me.BtnRestar.BackColor = System.Drawing.Color.Black
         Me.BtnRestar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnRestar.Font = New System.Drawing.Font("PT Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnRestar.Font = New System.Drawing.Font("Open Sans", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnRestar.ForeColor = System.Drawing.Color.White
         Me.BtnRestar.Location = New System.Drawing.Point(287, 249)
         Me.BtnRestar.Name = "BtnRestar"
@@ -104,7 +112,7 @@ Partial Class Form4
         '
         Me.BtnSumar.BackColor = System.Drawing.Color.Black
         Me.BtnSumar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnSumar.Font = New System.Drawing.Font("PT Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnSumar.Font = New System.Drawing.Font("Open Sans", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnSumar.ForeColor = System.Drawing.Color.White
         Me.BtnSumar.Location = New System.Drawing.Point(287, 163)
         Me.BtnSumar.Name = "BtnSumar"
@@ -117,7 +125,7 @@ Partial Class Form4
         '
         Me.BtnBorrar.BackColor = System.Drawing.Color.Black
         Me.BtnBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnBorrar.Font = New System.Drawing.Font("PT Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnBorrar.Font = New System.Drawing.Font("Open Sans", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnBorrar.ForeColor = System.Drawing.Color.White
         Me.BtnBorrar.Location = New System.Drawing.Point(384, 163)
         Me.BtnBorrar.Name = "BtnBorrar"
@@ -130,7 +138,7 @@ Partial Class Form4
         '
         Me.BtnBorrarUltimo.BackColor = System.Drawing.Color.Black
         Me.BtnBorrarUltimo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnBorrarUltimo.Font = New System.Drawing.Font("PT Serif", 25.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnBorrarUltimo.Font = New System.Drawing.Font("Open Sans", 25.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnBorrarUltimo.ForeColor = System.Drawing.Color.White
         Me.BtnBorrarUltimo.Location = New System.Drawing.Point(481, 163)
         Me.BtnBorrarUltimo.Name = "BtnBorrarUltimo"
@@ -143,7 +151,7 @@ Partial Class Form4
         '
         Me.BtnBorrarTodo.BackColor = System.Drawing.Color.Black
         Me.BtnBorrarTodo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnBorrarTodo.Font = New System.Drawing.Font("PT Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnBorrarTodo.Font = New System.Drawing.Font("Open Sans", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnBorrarTodo.ForeColor = System.Drawing.Color.White
         Me.BtnBorrarTodo.Location = New System.Drawing.Point(481, 249)
         Me.BtnBorrarTodo.Name = "BtnBorrarTodo"
@@ -156,7 +164,7 @@ Partial Class Form4
         '
         Me.BtnComa.BackColor = System.Drawing.Color.Black
         Me.BtnComa.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnComa.Font = New System.Drawing.Font("PT Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnComa.Font = New System.Drawing.Font("Open Sans", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnComa.ForeColor = System.Drawing.Color.White
         Me.BtnComa.Location = New System.Drawing.Point(182, 421)
         Me.BtnComa.Name = "BtnComa"
@@ -170,7 +178,7 @@ Partial Class Form4
         Me.BtnPorcentaje.BackColor = System.Drawing.Color.Black
         Me.BtnPorcentaje.Enabled = False
         Me.BtnPorcentaje.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnPorcentaje.Font = New System.Drawing.Font("PT Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnPorcentaje.Font = New System.Drawing.Font("Open Sans", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnPorcentaje.ForeColor = System.Drawing.Color.White
         Me.BtnPorcentaje.Location = New System.Drawing.Point(384, 249)
         Me.BtnPorcentaje.Name = "BtnPorcentaje"
@@ -183,7 +191,7 @@ Partial Class Form4
         '
         Me.BtnMasMenos.BackColor = System.Drawing.Color.Black
         Me.BtnMasMenos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnMasMenos.Font = New System.Drawing.Font("PT Serif", 25.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnMasMenos.Font = New System.Drawing.Font("Open Sans", 25.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnMasMenos.ForeColor = System.Drawing.Color.White
         Me.BtnMasMenos.Location = New System.Drawing.Point(98, 421)
         Me.BtnMasMenos.Name = "BtnMasMenos"
@@ -206,7 +214,7 @@ Partial Class Form4
         '
         Me.BtnResultado.BackColor = System.Drawing.Color.Black
         Me.BtnResultado.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnResultado.Font = New System.Drawing.Font("PT Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnResultado.Font = New System.Drawing.Font("Open Sans", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnResultado.ForeColor = System.Drawing.Color.White
         Me.BtnResultado.Location = New System.Drawing.Point(384, 335)
         Me.BtnResultado.Name = "BtnResultado"
@@ -219,7 +227,7 @@ Partial Class Form4
         '
         Me.Btn0.BackColor = System.Drawing.Color.Black
         Me.Btn0.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Btn0.Font = New System.Drawing.Font("PT Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btn0.Font = New System.Drawing.Font("Open Sans", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Btn0.ForeColor = System.Drawing.Color.White
         Me.Btn0.Location = New System.Drawing.Point(12, 421)
         Me.Btn0.Name = "Btn0"
@@ -232,7 +240,7 @@ Partial Class Form4
         '
         Me.Btn9.BackColor = System.Drawing.Color.Black
         Me.Btn9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Btn9.Font = New System.Drawing.Font("PT Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btn9.Font = New System.Drawing.Font("Open Sans", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Btn9.ForeColor = System.Drawing.Color.White
         Me.Btn9.Location = New System.Drawing.Point(184, 159)
         Me.Btn9.Name = "Btn9"
@@ -245,7 +253,7 @@ Partial Class Form4
         '
         Me.Btn8.BackColor = System.Drawing.Color.Black
         Me.Btn8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Btn8.Font = New System.Drawing.Font("PT Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btn8.Font = New System.Drawing.Font("Open Sans", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Btn8.ForeColor = System.Drawing.Color.White
         Me.Btn8.Location = New System.Drawing.Point(98, 159)
         Me.Btn8.Name = "Btn8"
@@ -258,7 +266,7 @@ Partial Class Form4
         '
         Me.Btn7.BackColor = System.Drawing.Color.Black
         Me.Btn7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Btn7.Font = New System.Drawing.Font("PT Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btn7.Font = New System.Drawing.Font("Open Sans", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Btn7.ForeColor = System.Drawing.Color.White
         Me.Btn7.Location = New System.Drawing.Point(12, 159)
         Me.Btn7.Name = "Btn7"
@@ -271,7 +279,7 @@ Partial Class Form4
         '
         Me.Btn6.BackColor = System.Drawing.Color.Black
         Me.Btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Btn6.Font = New System.Drawing.Font("PT Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btn6.Font = New System.Drawing.Font("Open Sans", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Btn6.ForeColor = System.Drawing.Color.White
         Me.Btn6.Location = New System.Drawing.Point(182, 245)
         Me.Btn6.Name = "Btn6"
@@ -284,7 +292,7 @@ Partial Class Form4
         '
         Me.Btn5.BackColor = System.Drawing.Color.Black
         Me.Btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Btn5.Font = New System.Drawing.Font("PT Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btn5.Font = New System.Drawing.Font("Open Sans", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Btn5.ForeColor = System.Drawing.Color.White
         Me.Btn5.Location = New System.Drawing.Point(98, 245)
         Me.Btn5.Name = "Btn5"
@@ -297,7 +305,7 @@ Partial Class Form4
         '
         Me.Btn4.BackColor = System.Drawing.Color.Black
         Me.Btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Btn4.Font = New System.Drawing.Font("PT Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btn4.Font = New System.Drawing.Font("Open Sans", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Btn4.ForeColor = System.Drawing.Color.White
         Me.Btn4.Location = New System.Drawing.Point(12, 245)
         Me.Btn4.Name = "Btn4"
@@ -310,7 +318,7 @@ Partial Class Form4
         '
         Me.Btn3.BackColor = System.Drawing.Color.Black
         Me.Btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Btn3.Font = New System.Drawing.Font("PT Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btn3.Font = New System.Drawing.Font("Open Sans", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Btn3.ForeColor = System.Drawing.Color.White
         Me.Btn3.Location = New System.Drawing.Point(182, 331)
         Me.Btn3.Name = "Btn3"
@@ -323,7 +331,7 @@ Partial Class Form4
         '
         Me.Btn2.BackColor = System.Drawing.Color.Black
         Me.Btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Btn2.Font = New System.Drawing.Font("PT Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btn2.Font = New System.Drawing.Font("Open Sans", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Btn2.ForeColor = System.Drawing.Color.White
         Me.Btn2.Location = New System.Drawing.Point(98, 331)
         Me.Btn2.Name = "Btn2"
@@ -336,7 +344,7 @@ Partial Class Form4
         '
         Me.Btn1.BackColor = System.Drawing.Color.Black
         Me.Btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Btn1.Font = New System.Drawing.Font("PT Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btn1.Font = New System.Drawing.Font("Open Sans", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Btn1.ForeColor = System.Drawing.Color.White
         Me.Btn1.Location = New System.Drawing.Point(12, 331)
         Me.Btn1.Name = "Btn1"
@@ -356,12 +364,94 @@ Partial Class Form4
         Me.Txt2.Size = New System.Drawing.Size(522, 68)
         Me.Txt2.TabIndex = 57
         '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.Label3)
+        Me.GroupBox1.Controls.Add(Me.Label2)
+        Me.GroupBox1.Controls.Add(Me.Txt4)
+        Me.GroupBox1.Controls.Add(Me.BtnConvertir)
+        Me.GroupBox1.Controls.Add(Me.Label1)
+        Me.GroupBox1.Controls.Add(Me.Txt3)
+        Me.GroupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.GroupBox1.Location = New System.Drawing.Point(578, 74)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(365, 351)
+        Me.GroupBox1.TabIndex = 58
+        Me.GroupBox1.TabStop = False
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Open Sans", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label2.Location = New System.Drawing.Point(25, 86)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(114, 37)
+        Me.Label2.TabIndex = 42
+        Me.Label2.Text = "EUROS:"
+        '
+        'Txt4
+        '
+        Me.Txt4.BackColor = System.Drawing.Color.White
+        Me.Txt4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Txt4.Enabled = False
+        Me.Txt4.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Txt4.Location = New System.Drawing.Point(159, 168)
+        Me.Txt4.Multiline = True
+        Me.Txt4.Name = "Txt4"
+        Me.Txt4.Size = New System.Drawing.Size(164, 59)
+        Me.Txt4.TabIndex = 41
+        '
+        'BtnConvertir
+        '
+        Me.BtnConvertir.Font = New System.Drawing.Font("Open Sans", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnConvertir.Location = New System.Drawing.Point(91, 257)
+        Me.BtnConvertir.Name = "BtnConvertir"
+        Me.BtnConvertir.Size = New System.Drawing.Size(194, 51)
+        Me.BtnConvertir.TabIndex = 40
+        Me.BtnConvertir.Text = "Convertir"
+        Me.BtnConvertir.UseVisualStyleBackColor = True
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Open Sans", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label1.Location = New System.Drawing.Point(32, 16)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(291, 37)
+        Me.Label1.TabIndex = 36
+        Me.Label1.Text = "Conversor de divisas"
+        '
+        'Txt3
+        '
+        Me.Txt3.BackColor = System.Drawing.Color.White
+        Me.Txt3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Txt3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Txt3.Location = New System.Drawing.Point(159, 73)
+        Me.Txt3.Multiline = True
+        Me.Txt3.Name = "Txt3"
+        Me.Txt3.Size = New System.Drawing.Size(164, 62)
+        Me.Txt3.TabIndex = 37
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Open Sans", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label3.Location = New System.Drawing.Point(16, 181)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(137, 37)
+        Me.Label3.TabIndex = 43
+        Me.Label3.Text = "PESETAS:"
+        '
         'Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(576, 520)
+        Me.ClientSize = New System.Drawing.Size(981, 520)
+        Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Txt2)
         Me.Controls.Add(Me.BtnVolver1)
         Me.Controls.Add(Me.BtnDividir)
@@ -387,7 +477,9 @@ Partial Class Form4
         Me.Controls.Add(Me.Btn2)
         Me.Controls.Add(Me.Btn1)
         Me.Name = "Form4"
-        Me.Text = "Form4"
+        Me.Text = "Calculadora de ancianos"
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -416,4 +508,11 @@ Partial Class Form4
     Friend WithEvents Btn1 As System.Windows.Forms.Button
     Friend WithEvents Txt2 As System.Windows.Forms.TextBox
     Private WithEvents BtnPorcentaje As System.Windows.Forms.Button
+    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Txt4 As System.Windows.Forms.TextBox
+    Friend WithEvents BtnConvertir As System.Windows.Forms.Button
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Txt3 As System.Windows.Forms.TextBox
+    Friend WithEvents Label3 As System.Windows.Forms.Label
 End Class

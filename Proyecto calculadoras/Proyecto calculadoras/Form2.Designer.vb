@@ -296,7 +296,7 @@ Partial Class Form2
         Me.Controls.Add(Me.Btn2)
         Me.Controls.Add(Me.Btn1)
         Me.Name = "Form2"
-        Me.Text = "Form2"
+        Me.Text = "Calculadora de niños"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

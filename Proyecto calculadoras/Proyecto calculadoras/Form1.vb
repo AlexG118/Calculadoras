@@ -14,4 +14,5 @@
         Form4.Show()
         Me.Hide()
     End Sub
+
 End Class

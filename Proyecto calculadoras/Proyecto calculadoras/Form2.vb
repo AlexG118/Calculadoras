@@ -2,15 +2,14 @@
 Option Explicit On
 Public Class Form2
 
-    Private Sub BtnVolver1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnVolver1.Click
-        Me.Hide()
-        Form1.Show()
-    End Sub
-
+#Region "Variables"
     Dim PrimerNum As Double
     Dim SegundoNum As Double
     Dim ResultadoNum As Double
     Dim Operador As String
+#End Region
+
+#Region "Numeros"
     Private Sub Btn1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Btn1.Click
         Txt1.Text = Txt1.Text & 1
     End Sub
@@ -50,6 +49,9 @@ Public Class Form2
     Private Sub Btn0_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Btn0.Click
         Txt1.Text = Txt1.Text & 0
     End Sub
+#End Region
+
+#Region "Operaciones"
 
     Private Sub BtnSumar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnSumar.Click
         PrimerNum = Val(Txt1.Text)
@@ -93,10 +95,22 @@ Public Class Form2
         Txt1.Text = ResultadoNum
     End Sub
 
+#End Region
+
+#Region "Borrados"
     Private Sub BtnBorrar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnBorrar.Click
         Txt1.Text = ""
         PrimerNum = 0
         SegundoNum = 0
         ResultadoNum = 0
     End Sub
+#End Region
+
+#Region "Otros"
+    Private Sub BtnVolver1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnVolver1.Click
+        Me.Hide()
+        Form1.Show()
+    End Sub
+#End Region
+
 End Class

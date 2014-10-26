@@ -39,14 +39,14 @@ Partial Class Form3
         Me.BtnSqrt = New System.Windows.Forms.Button()
         Me.BtnFuncion = New System.Windows.Forms.Button()
         Me.BtnMasMenos = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
+        Me.BtnCos = New System.Windows.Forms.Button()
         Me.BtnPorcentaje = New System.Windows.Forms.Button()
         Me.BtnComa = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
+        Me.BtnSin = New System.Windows.Forms.Button()
         Me.BtnBorrarTodo = New System.Windows.Forms.Button()
         Me.BtnBorrarUltimo = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
+        Me.BtnLog = New System.Windows.Forms.Button()
+        Me.BtnTan = New System.Windows.Forms.Button()
         Me.BtnFactorial = New System.Windows.Forms.Button()
         Me.BtnBorrar = New System.Windows.Forms.Button()
         Me.BtnSumar = New System.Windows.Forms.Button()
@@ -55,6 +55,17 @@ Partial Class Form3
         Me.BtnDividir = New System.Windows.Forms.Button()
         Me.BtnVolver1 = New System.Windows.Forms.Button()
         Me.Txt2 = New System.Windows.Forms.TextBox()
+        Me.CBFrom = New System.Windows.Forms.ComboBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Txt3 = New System.Windows.Forms.TextBox()
+        Me.CBTo = New System.Windows.Forms.ComboBox()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Txt4 = New System.Windows.Forms.TextBox()
+        Me.BtnConvertir = New System.Windows.Forms.Button()
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Btn1
@@ -227,10 +238,10 @@ Partial Class Form3
         Me.Txt1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Txt1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Txt1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Txt1.Location = New System.Drawing.Point(43, 83)
+        Me.Txt1.Location = New System.Drawing.Point(29, 83)
         Me.Txt1.Multiline = True
         Me.Txt1.Name = "Txt1"
-        Me.Txt1.Size = New System.Drawing.Size(552, 59)
+        Me.Txt1.Size = New System.Drawing.Size(610, 59)
         Me.Txt1.TabIndex = 11
         '
         'BtnPotencia
@@ -254,13 +265,13 @@ Partial Class Form3
         Me.BtnSqrt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.BtnSqrt.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.BtnSqrt.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnSqrt.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnSqrt.Font = New System.Drawing.Font("Open Sans", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnSqrt.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.BtnSqrt.Location = New System.Drawing.Point(353, 224)
         Me.BtnSqrt.Name = "BtnSqrt"
         Me.BtnSqrt.Size = New System.Drawing.Size(70, 70)
         Me.BtnSqrt.TabIndex = 13
-        Me.BtnSqrt.Text = "SQRT"
+        Me.BtnSqrt.Text = "√"
         Me.BtnSqrt.UseVisualStyleBackColor = True
         '
         'BtnFuncion
@@ -293,20 +304,20 @@ Partial Class Form3
         Me.BtnMasMenos.Text = "+/-"
         Me.BtnMasMenos.UseVisualStyleBackColor = True
         '
-        'Button5
+        'BtnCos
         '
-        Me.Button5.BackgroundImage = CType(resources.GetObject("Button5.BackgroundImage"), System.Drawing.Image)
-        Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button5.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button5.Location = New System.Drawing.Point(353, 376)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(70, 70)
-        Me.Button5.TabIndex = 16
-        Me.Button5.Text = "cos"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.BtnCos.BackgroundImage = CType(resources.GetObject("BtnCos.BackgroundImage"), System.Drawing.Image)
+        Me.BtnCos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnCos.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.BtnCos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnCos.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnCos.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.BtnCos.Location = New System.Drawing.Point(353, 376)
+        Me.BtnCos.Name = "BtnCos"
+        Me.BtnCos.Size = New System.Drawing.Size(70, 70)
+        Me.BtnCos.TabIndex = 16
+        Me.BtnCos.Text = "cos"
+        Me.BtnCos.UseVisualStyleBackColor = True
         '
         'BtnPorcentaje
         '
@@ -339,20 +350,20 @@ Partial Class Form3
         Me.BtnComa.Text = "."
         Me.BtnComa.UseVisualStyleBackColor = True
         '
-        'Button9
+        'BtnSin
         '
-        Me.Button9.BackgroundImage = CType(resources.GetObject("Button9.BackgroundImage"), System.Drawing.Image)
-        Me.Button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button9.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button9.Location = New System.Drawing.Point(429, 376)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(70, 70)
-        Me.Button9.TabIndex = 20
-        Me.Button9.Text = "sin"
-        Me.Button9.UseVisualStyleBackColor = True
+        Me.BtnSin.BackgroundImage = CType(resources.GetObject("BtnSin.BackgroundImage"), System.Drawing.Image)
+        Me.BtnSin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnSin.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.BtnSin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnSin.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnSin.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.BtnSin.Location = New System.Drawing.Point(429, 376)
+        Me.BtnSin.Name = "BtnSin"
+        Me.BtnSin.Size = New System.Drawing.Size(70, 70)
+        Me.BtnSin.TabIndex = 20
+        Me.BtnSin.Text = "sin"
+        Me.BtnSin.UseVisualStyleBackColor = True
         '
         'BtnBorrarTodo
         '
@@ -384,35 +395,35 @@ Partial Class Form3
         Me.BtnBorrarUltimo.Text = "CE"
         Me.BtnBorrarUltimo.UseVisualStyleBackColor = True
         '
-        'Button6
+        'BtnLog
         '
-        Me.Button6.BackgroundImage = CType(resources.GetObject("Button6.BackgroundImage"), System.Drawing.Image)
-        Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button6.Location = New System.Drawing.Point(505, 300)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(70, 70)
-        Me.Button6.TabIndex = 25
-        Me.Button6.Text = "log"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.BtnLog.BackgroundImage = CType(resources.GetObject("BtnLog.BackgroundImage"), System.Drawing.Image)
+        Me.BtnLog.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnLog.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.BtnLog.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnLog.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnLog.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.BtnLog.Location = New System.Drawing.Point(505, 300)
+        Me.BtnLog.Name = "BtnLog"
+        Me.BtnLog.Size = New System.Drawing.Size(70, 70)
+        Me.BtnLog.TabIndex = 25
+        Me.BtnLog.Text = "log"
+        Me.BtnLog.UseVisualStyleBackColor = True
         '
-        'Button7
+        'BtnTan
         '
-        Me.Button7.BackgroundImage = CType(resources.GetObject("Button7.BackgroundImage"), System.Drawing.Image)
-        Me.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button7.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button7.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button7.Location = New System.Drawing.Point(505, 376)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(70, 70)
-        Me.Button7.TabIndex = 26
-        Me.Button7.Text = "tan"
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.BtnTan.BackgroundImage = CType(resources.GetObject("BtnTan.BackgroundImage"), System.Drawing.Image)
+        Me.BtnTan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnTan.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.BtnTan.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnTan.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnTan.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.BtnTan.Location = New System.Drawing.Point(505, 376)
+        Me.BtnTan.Name = "BtnTan"
+        Me.BtnTan.Size = New System.Drawing.Size(70, 70)
+        Me.BtnTan.TabIndex = 26
+        Me.BtnTan.Text = "tan"
+        Me.BtnTan.UseVisualStyleBackColor = True
         '
         'BtnFactorial
         '
@@ -507,7 +518,7 @@ Partial Class Form3
         'BtnVolver1
         '
         Me.BtnVolver1.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnVolver1.Location = New System.Drawing.Point(567, 461)
+        Me.BtnVolver1.Location = New System.Drawing.Point(849, 417)
         Me.BtnVolver1.Name = "BtnVolver1"
         Me.BtnVolver1.Size = New System.Drawing.Size(75, 29)
         Me.BtnVolver1.TabIndex = 33
@@ -518,19 +529,137 @@ Partial Class Form3
         '
         Me.Txt2.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Txt2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Txt2.Enabled = False
         Me.Txt2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Txt2.Location = New System.Drawing.Point(43, 29)
+        Me.Txt2.Location = New System.Drawing.Point(29, 29)
         Me.Txt2.Multiline = True
         Me.Txt2.Name = "Txt2"
-        Me.Txt2.Size = New System.Drawing.Size(552, 59)
+        Me.Txt2.Size = New System.Drawing.Size(610, 59)
         Me.Txt2.TabIndex = 34
+        '
+        'CBFrom
+        '
+        Me.CBFrom.FormattingEnabled = True
+        Me.CBFrom.Items.AddRange(New Object() {"Japanese YEN - JPY", "Euro - EUR", "British Pound - GBP", "U.S. Dollar - USD"})
+        Me.CBFrom.Location = New System.Drawing.Point(129, 143)
+        Me.CBFrom.Name = "CBFrom"
+        Me.CBFrom.Size = New System.Drawing.Size(121, 21)
+        Me.CBFrom.TabIndex = 35
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Open Sans", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.Window
+        Me.Label1.Location = New System.Drawing.Point(6, 16)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(291, 37)
+        Me.Label1.TabIndex = 36
+        Me.Label1.Text = "Conversor de divisas"
+        '
+        'Txt3
+        '
+        Me.Txt3.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Txt3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Txt3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Txt3.Location = New System.Drawing.Point(129, 91)
+        Me.Txt3.Multiline = True
+        Me.Txt3.Name = "Txt3"
+        Me.Txt3.Size = New System.Drawing.Size(144, 32)
+        Me.Txt3.TabIndex = 37
+        '
+        'CBTo
+        '
+        Me.CBTo.FormattingEnabled = True
+        Me.CBTo.Items.AddRange(New Object() {"Japanese YEN - JPY", "Euro - EUR", "British Pound - GBP", "U.S. Dollar - USD"})
+        Me.CBTo.Location = New System.Drawing.Point(129, 181)
+        Me.CBTo.Name = "CBTo"
+        Me.CBTo.Size = New System.Drawing.Size(121, 21)
+        Me.CBTo.TabIndex = 38
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox1.Controls.Add(Me.Label4)
+        Me.GroupBox1.Controls.Add(Me.Label3)
+        Me.GroupBox1.Controls.Add(Me.Label2)
+        Me.GroupBox1.Controls.Add(Me.Txt4)
+        Me.GroupBox1.Controls.Add(Me.BtnConvertir)
+        Me.GroupBox1.Controls.Add(Me.Label1)
+        Me.GroupBox1.Controls.Add(Me.Txt3)
+        Me.GroupBox1.Controls.Add(Me.CBTo)
+        Me.GroupBox1.Controls.Add(Me.CBFrom)
+        Me.GroupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.GroupBox1.Location = New System.Drawing.Point(688, 70)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(303, 341)
+        Me.GroupBox1.TabIndex = 39
+        Me.GroupBox1.TabStop = False
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Label4.Location = New System.Drawing.Point(86, 178)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(29, 22)
+        Me.Label4.TabIndex = 44
+        Me.Label4.Text = "a: "
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(75, 140)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(40, 22)
+        Me.Label3.TabIndex = 43
+        Me.Label3.Text = "De: "
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Open Sans", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Label2.Location = New System.Drawing.Point(6, 91)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(117, 27)
+        Me.Label2.TabIndex = 42
+        Me.Label2.Text = "Convertir: "
+        '
+        'Txt4
+        '
+        Me.Txt4.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Txt4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Txt4.Enabled = False
+        Me.Txt4.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Txt4.Location = New System.Drawing.Point(42, 277)
+        Me.Txt4.Multiline = True
+        Me.Txt4.Name = "Txt4"
+        Me.Txt4.Size = New System.Drawing.Size(208, 43)
+        Me.Txt4.TabIndex = 41
+        '
+        'BtnConvertir
+        '
+        Me.BtnConvertir.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnConvertir.Location = New System.Drawing.Point(90, 230)
+        Me.BtnConvertir.Name = "BtnConvertir"
+        Me.BtnConvertir.Size = New System.Drawing.Size(103, 29)
+        Me.BtnConvertir.TabIndex = 40
+        Me.BtnConvertir.Text = "Convertir"
+        Me.BtnConvertir.UseVisualStyleBackColor = True
         '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
-        Me.ClientSize = New System.Drawing.Size(654, 502)
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(1014, 479)
+        Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Txt2)
         Me.Controls.Add(Me.BtnVolver1)
         Me.Controls.Add(Me.BtnDividir)
@@ -539,14 +668,14 @@ Partial Class Form3
         Me.Controls.Add(Me.BtnSumar)
         Me.Controls.Add(Me.BtnBorrar)
         Me.Controls.Add(Me.BtnFactorial)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button6)
+        Me.Controls.Add(Me.BtnTan)
+        Me.Controls.Add(Me.BtnLog)
         Me.Controls.Add(Me.BtnBorrarUltimo)
         Me.Controls.Add(Me.BtnBorrarTodo)
-        Me.Controls.Add(Me.Button9)
+        Me.Controls.Add(Me.BtnSin)
         Me.Controls.Add(Me.BtnComa)
         Me.Controls.Add(Me.BtnPorcentaje)
-        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.BtnCos)
         Me.Controls.Add(Me.BtnMasMenos)
         Me.Controls.Add(Me.BtnFuncion)
         Me.Controls.Add(Me.BtnSqrt)
@@ -564,7 +693,9 @@ Partial Class Form3
         Me.Controls.Add(Me.Btn2)
         Me.Controls.Add(Me.Btn1)
         Me.Name = "Form3"
-        Me.Text = "Form3"
+        Me.Text = "Calculadora de oficina"
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -585,14 +716,14 @@ Partial Class Form3
     Friend WithEvents BtnSqrt As System.Windows.Forms.Button
     Friend WithEvents BtnFuncion As System.Windows.Forms.Button
     Friend WithEvents BtnMasMenos As System.Windows.Forms.Button
-    Friend WithEvents Button5 As System.Windows.Forms.Button
+    Friend WithEvents BtnCos As System.Windows.Forms.Button
     Friend WithEvents BtnPorcentaje As System.Windows.Forms.Button
     Friend WithEvents BtnComa As System.Windows.Forms.Button
-    Friend WithEvents Button9 As System.Windows.Forms.Button
+    Friend WithEvents BtnSin As System.Windows.Forms.Button
     Friend WithEvents BtnBorrarTodo As System.Windows.Forms.Button
     Friend WithEvents BtnBorrarUltimo As System.Windows.Forms.Button
-    Friend WithEvents Button6 As System.Windows.Forms.Button
-    Friend WithEvents Button7 As System.Windows.Forms.Button
+    Friend WithEvents BtnLog As System.Windows.Forms.Button
+    Friend WithEvents BtnTan As System.Windows.Forms.Button
     Friend WithEvents BtnFactorial As System.Windows.Forms.Button
     Friend WithEvents BtnBorrar As System.Windows.Forms.Button
     Friend WithEvents BtnSumar As System.Windows.Forms.Button
@@ -601,4 +732,14 @@ Partial Class Form3
     Friend WithEvents BtnDividir As System.Windows.Forms.Button
     Friend WithEvents BtnVolver1 As System.Windows.Forms.Button
     Friend WithEvents Txt2 As System.Windows.Forms.TextBox
+    Friend WithEvents CBFrom As System.Windows.Forms.ComboBox
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Txt3 As System.Windows.Forms.TextBox
+    Friend WithEvents CBTo As System.Windows.Forms.ComboBox
+    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents Txt4 As System.Windows.Forms.TextBox
+    Friend WithEvents BtnConvertir As System.Windows.Forms.Button
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
 End Class
