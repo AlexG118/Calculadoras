@@ -277,6 +277,41 @@
         Txt1.Text = 1 / Txt1.Text
         texto2bool = False
     End Sub
+
+    Private Sub BtnPotencia_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnPotencia.Click
+
+        If PrimerNum <> 0 Then
+            Txt1.Text = PrimerNum ^ Txt1.Text
+            texto2bool = False
+        Else
+            PrimerNum = Txt1.Text
+            Txt2.Text = PrimerNum & "^"
+            Txt1.Text = ""
+        End If
+
+    End Sub
+
+    Private Sub BtnLog_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnLog.Click
+
+        Txt1.Text = Math.Log(Txt1.Text, 10)
+        texto2bool = False
+
+    End Sub
+
+    Private Sub BtnCos_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnCos.Click
+        Txt1.Text = Math.Cos(Txt1.Text * (Math.PI / 180))
+        texto2bool = False
+    End Sub
+
+    Private Sub BtnSin_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnSin.Click
+        Txt1.Text = Math.Sin(Txt1.Text * (Math.PI / 180))
+        texto2bool = False
+    End Sub
+
+    Private Sub BtnTan_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnTan.Click
+        Txt1.Text = Math.Tan(Txt1.Text * (Math.PI / 180))
+        texto2bool = False
+    End Sub
 #End Region
 
 #Region "Borrados"
@@ -338,88 +373,47 @@
     
 
     Private Sub CBFrom_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CBFrom.SelectedIndexChanged
-        Select Case CBTo.Text
-            Case "Japanese YEN - JPY"
-                textfrom = 1.0
-            Case "Euro - EUR"
-                textfrom = 0.0075774548
-            Case "British Pound - GBP"
-                textfrom = 0.0064142153
-            Case "U.S. Dollar - USD"
-                textfrom = 0.0102789194
 
+        Select Case CBFrom.Text
+            Case "Japanese YEN - JPY"
+                textfrom = 0.00730386
+            Case "Euro - EUR"
+                textfrom = 1
+            Case "British Pound - GBP"
+                textfrom = 1.26937
+            Case "U.S. Dollar - USD"
+                textfrom = 0.78754
         End Select
 
     End Sub
 
     Private Sub CBTo_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CBTo.SelectedIndexChanged
-        Select Case CBFrom.Text
+
+        Select Case CBTo.Text
             Case "Japanese YEN - JPY"
-                textto = 323
+                textto = 136.936
             Case "Euro - EUR"
-                textto = 0.7368
+                textto = 1
             Case "British Pound - GBP"
-                textto = 0.6217
+                textto = 0.787758
             Case "U.S. Dollar - USD"
-                textfrom = 0.0102789194
+                textto = 1.26967
         End Select
+
     End Sub
 
     Private Sub Enterbutton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnConvertir.Click
-        Dim enter As Decimal
+        Dim moneda As Decimal
 
-        Select CBTo.Text
-            Case "Japanese YEN - JPY"
-                textfrom = 1.0
-            Case "Euro - EUR"
-                textfrom = 0.0075774548
-            Case "British Pound - GBP"
-                textfrom = 0.0064142153
-            Case "U.S. Dollar - USD"
-                textfrom = 0.0102789194
-        End Select
-
-        enter = Val(Txt3.Text)
-        result = enter * textfrom * textto
-        Txt4.Text = result.ToString
+        moneda = Val(Txt3.Text)
+        result = moneda * textfrom
+        result = result * textto
+        Txt4.Text = result
 
     End Sub
 #End Region
 
 
 
-    Private Sub BtnPotencia_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnPotencia.Click
 
-        If PrimerNum <> 0 Then
-            Txt1.Text = PrimerNum ^ Txt1.Text
-            texto2bool = False
-        Else
-            PrimerNum = Txt1.Text
-            Txt2.Text = PrimerNum & "^"
-            Txt1.Text = ""
-        End If
-
-    End Sub
-
-    Private Sub BtnLog_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnLog.Click
-
-        Txt1.Text = Math.Log(Txt1.Text, 10)
-        texto2bool = False
-
-    End Sub
-
-    Private Sub BtnCos_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnCos.Click
-        Txt1.Text = Math.Cos(Txt1.Text * (Math.PI / 180))
-        texto2bool = False
-    End Sub
-
-    Private Sub BtnSin_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnSin.Click
-        Txt1.Text = Math.Sin(Txt1.Text * (Math.PI / 180))
-        texto2bool = False
-    End Sub
-
-    Private Sub BtnTan_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnTan.Click
-        Txt1.Text = Math.Tan(Txt1.Text * (Math.PI / 180))
-        texto2bool = False
-    End Sub
 End Class

@@ -76,9 +76,9 @@ Partial Class Form3
         Me.Btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Btn1.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Btn1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Btn1.Location = New System.Drawing.Point(29, 300)
+        Me.Btn1.Location = New System.Drawing.Point(24, 268)
         Me.Btn1.Name = "Btn1"
-        Me.Btn1.Size = New System.Drawing.Size(70, 70)
+        Me.Btn1.Size = New System.Drawing.Size(59, 52)
         Me.Btn1.TabIndex = 0
         Me.Btn1.Text = "1"
         Me.Btn1.UseVisualStyleBackColor = True
@@ -91,9 +91,9 @@ Partial Class Form3
         Me.Btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Btn2.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Btn2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Btn2.Location = New System.Drawing.Point(105, 300)
+        Me.Btn2.Location = New System.Drawing.Point(89, 268)
         Me.Btn2.Name = "Btn2"
-        Me.Btn2.Size = New System.Drawing.Size(70, 70)
+        Me.Btn2.Size = New System.Drawing.Size(59, 52)
         Me.Btn2.TabIndex = 1
         Me.Btn2.Text = "2"
         Me.Btn2.UseVisualStyleBackColor = True
@@ -106,9 +106,9 @@ Partial Class Form3
         Me.Btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Btn3.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Btn3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Btn3.Location = New System.Drawing.Point(181, 300)
+        Me.Btn3.Location = New System.Drawing.Point(154, 268)
         Me.Btn3.Name = "Btn3"
-        Me.Btn3.Size = New System.Drawing.Size(70, 70)
+        Me.Btn3.Size = New System.Drawing.Size(59, 52)
         Me.Btn3.TabIndex = 2
         Me.Btn3.Text = "3"
         Me.Btn3.UseVisualStyleBackColor = True
@@ -121,9 +121,9 @@ Partial Class Form3
         Me.Btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Btn4.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Btn4.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Btn4.Location = New System.Drawing.Point(29, 224)
+        Me.Btn4.Location = New System.Drawing.Point(24, 192)
         Me.Btn4.Name = "Btn4"
-        Me.Btn4.Size = New System.Drawing.Size(70, 70)
+        Me.Btn4.Size = New System.Drawing.Size(59, 52)
         Me.Btn4.TabIndex = 3
         Me.Btn4.Text = "4"
         Me.Btn4.UseVisualStyleBackColor = True
@@ -136,9 +136,9 @@ Partial Class Form3
         Me.Btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Btn5.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Btn5.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Btn5.Location = New System.Drawing.Point(105, 224)
+        Me.Btn5.Location = New System.Drawing.Point(89, 192)
         Me.Btn5.Name = "Btn5"
-        Me.Btn5.Size = New System.Drawing.Size(70, 70)
+        Me.Btn5.Size = New System.Drawing.Size(59, 52)
         Me.Btn5.TabIndex = 4
         Me.Btn5.Text = "5"
         Me.Btn5.UseVisualStyleBackColor = True
@@ -151,9 +151,9 @@ Partial Class Form3
         Me.Btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Btn6.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Btn6.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Btn6.Location = New System.Drawing.Point(181, 224)
+        Me.Btn6.Location = New System.Drawing.Point(154, 192)
         Me.Btn6.Name = "Btn6"
-        Me.Btn6.Size = New System.Drawing.Size(70, 70)
+        Me.Btn6.Size = New System.Drawing.Size(59, 52)
         Me.Btn6.TabIndex = 5
         Me.Btn6.Text = "6"
         Me.Btn6.UseVisualStyleBackColor = True
@@ -166,9 +166,9 @@ Partial Class Form3
         Me.Btn7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Btn7.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Btn7.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Btn7.Location = New System.Drawing.Point(29, 148)
+        Me.Btn7.Location = New System.Drawing.Point(24, 116)
         Me.Btn7.Name = "Btn7"
-        Me.Btn7.Size = New System.Drawing.Size(70, 70)
+        Me.Btn7.Size = New System.Drawing.Size(59, 52)
         Me.Btn7.TabIndex = 6
         Me.Btn7.Text = "7"
         Me.Btn7.UseVisualStyleBackColor = True
@@ -181,9 +181,9 @@ Partial Class Form3
         Me.Btn8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Btn8.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Btn8.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Btn8.Location = New System.Drawing.Point(105, 148)
+        Me.Btn8.Location = New System.Drawing.Point(89, 116)
         Me.Btn8.Name = "Btn8"
-        Me.Btn8.Size = New System.Drawing.Size(70, 70)
+        Me.Btn8.Size = New System.Drawing.Size(59, 52)
         Me.Btn8.TabIndex = 7
         Me.Btn8.Text = "8"
         Me.Btn8.UseVisualStyleBackColor = True
@@ -196,9 +196,9 @@ Partial Class Form3
         Me.Btn9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Btn9.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Btn9.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Btn9.Location = New System.Drawing.Point(181, 148)
+        Me.Btn9.Location = New System.Drawing.Point(154, 116)
         Me.Btn9.Name = "Btn9"
-        Me.Btn9.Size = New System.Drawing.Size(70, 70)
+        Me.Btn9.Size = New System.Drawing.Size(59, 52)
         Me.Btn9.TabIndex = 8
         Me.Btn9.Text = "9"
         Me.Btn9.UseVisualStyleBackColor = True
@@ -211,9 +211,9 @@ Partial Class Form3
         Me.Btn0.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Btn0.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Btn0.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Btn0.Location = New System.Drawing.Point(29, 376)
+        Me.Btn0.Location = New System.Drawing.Point(24, 344)
         Me.Btn0.Name = "Btn0"
-        Me.Btn0.Size = New System.Drawing.Size(70, 70)
+        Me.Btn0.Size = New System.Drawing.Size(59, 52)
         Me.Btn0.TabIndex = 9
         Me.Btn0.Text = "0"
         Me.Btn0.UseVisualStyleBackColor = True
@@ -226,9 +226,9 @@ Partial Class Form3
         Me.BtnResultado.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnResultado.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnResultado.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BtnResultado.Location = New System.Drawing.Point(580, 148)
+        Me.BtnResultado.Location = New System.Drawing.Point(530, 116)
         Me.BtnResultado.Name = "BtnResultado"
-        Me.BtnResultado.Size = New System.Drawing.Size(59, 146)
+        Me.BtnResultado.Size = New System.Drawing.Size(48, 128)
         Me.BtnResultado.TabIndex = 10
         Me.BtnResultado.Text = "="
         Me.BtnResultado.UseVisualStyleBackColor = True
@@ -238,10 +238,10 @@ Partial Class Form3
         Me.Txt1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Txt1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Txt1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Txt1.Location = New System.Drawing.Point(29, 83)
+        Me.Txt1.Location = New System.Drawing.Point(24, 62)
         Me.Txt1.Multiline = True
         Me.Txt1.Name = "Txt1"
-        Me.Txt1.Size = New System.Drawing.Size(610, 59)
+        Me.Txt1.Size = New System.Drawing.Size(554, 48)
         Me.Txt1.TabIndex = 11
         '
         'BtnPotencia
@@ -252,9 +252,9 @@ Partial Class Form3
         Me.BtnPotencia.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnPotencia.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnPotencia.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BtnPotencia.Location = New System.Drawing.Point(429, 300)
+        Me.BtnPotencia.Location = New System.Drawing.Point(379, 268)
         Me.BtnPotencia.Name = "BtnPotencia"
-        Me.BtnPotencia.Size = New System.Drawing.Size(70, 70)
+        Me.BtnPotencia.Size = New System.Drawing.Size(59, 52)
         Me.BtnPotencia.TabIndex = 12
         Me.BtnPotencia.Text = "x^"
         Me.BtnPotencia.UseVisualStyleBackColor = True
@@ -267,9 +267,9 @@ Partial Class Form3
         Me.BtnSqrt.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnSqrt.Font = New System.Drawing.Font("Open Sans", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnSqrt.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BtnSqrt.Location = New System.Drawing.Point(353, 224)
+        Me.BtnSqrt.Location = New System.Drawing.Point(303, 192)
         Me.BtnSqrt.Name = "BtnSqrt"
-        Me.BtnSqrt.Size = New System.Drawing.Size(70, 70)
+        Me.BtnSqrt.Size = New System.Drawing.Size(59, 52)
         Me.BtnSqrt.TabIndex = 13
         Me.BtnSqrt.Text = "√"
         Me.BtnSqrt.UseVisualStyleBackColor = True
@@ -282,9 +282,9 @@ Partial Class Form3
         Me.BtnFuncion.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnFuncion.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnFuncion.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BtnFuncion.Location = New System.Drawing.Point(353, 300)
+        Me.BtnFuncion.Location = New System.Drawing.Point(303, 268)
         Me.BtnFuncion.Name = "BtnFuncion"
-        Me.BtnFuncion.Size = New System.Drawing.Size(70, 70)
+        Me.BtnFuncion.Size = New System.Drawing.Size(59, 52)
         Me.BtnFuncion.TabIndex = 14
         Me.BtnFuncion.Text = "1/x"
         Me.BtnFuncion.UseVisualStyleBackColor = True
@@ -297,9 +297,9 @@ Partial Class Form3
         Me.BtnMasMenos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnMasMenos.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnMasMenos.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BtnMasMenos.Location = New System.Drawing.Point(105, 376)
+        Me.BtnMasMenos.Location = New System.Drawing.Point(89, 344)
         Me.BtnMasMenos.Name = "BtnMasMenos"
-        Me.BtnMasMenos.Size = New System.Drawing.Size(70, 70)
+        Me.BtnMasMenos.Size = New System.Drawing.Size(59, 52)
         Me.BtnMasMenos.TabIndex = 15
         Me.BtnMasMenos.Text = "+/-"
         Me.BtnMasMenos.UseVisualStyleBackColor = True
@@ -312,9 +312,9 @@ Partial Class Form3
         Me.BtnCos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnCos.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnCos.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BtnCos.Location = New System.Drawing.Point(353, 376)
+        Me.BtnCos.Location = New System.Drawing.Point(303, 344)
         Me.BtnCos.Name = "BtnCos"
-        Me.BtnCos.Size = New System.Drawing.Size(70, 70)
+        Me.BtnCos.Size = New System.Drawing.Size(59, 52)
         Me.BtnCos.TabIndex = 16
         Me.BtnCos.Text = "cos"
         Me.BtnCos.UseVisualStyleBackColor = True
@@ -328,9 +328,9 @@ Partial Class Form3
         Me.BtnPorcentaje.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnPorcentaje.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnPorcentaje.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BtnPorcentaje.Location = New System.Drawing.Point(353, 148)
+        Me.BtnPorcentaje.Location = New System.Drawing.Point(303, 116)
         Me.BtnPorcentaje.Name = "BtnPorcentaje"
-        Me.BtnPorcentaje.Size = New System.Drawing.Size(70, 70)
+        Me.BtnPorcentaje.Size = New System.Drawing.Size(59, 52)
         Me.BtnPorcentaje.TabIndex = 18
         Me.BtnPorcentaje.Text = "%"
         Me.BtnPorcentaje.UseVisualStyleBackColor = True
@@ -343,9 +343,9 @@ Partial Class Form3
         Me.BtnComa.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnComa.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnComa.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BtnComa.Location = New System.Drawing.Point(181, 376)
+        Me.BtnComa.Location = New System.Drawing.Point(154, 344)
         Me.BtnComa.Name = "BtnComa"
-        Me.BtnComa.Size = New System.Drawing.Size(70, 70)
+        Me.BtnComa.Size = New System.Drawing.Size(59, 52)
         Me.BtnComa.TabIndex = 19
         Me.BtnComa.Text = "."
         Me.BtnComa.UseVisualStyleBackColor = True
@@ -358,9 +358,9 @@ Partial Class Form3
         Me.BtnSin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnSin.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnSin.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BtnSin.Location = New System.Drawing.Point(429, 376)
+        Me.BtnSin.Location = New System.Drawing.Point(379, 344)
         Me.BtnSin.Name = "BtnSin"
-        Me.BtnSin.Size = New System.Drawing.Size(70, 70)
+        Me.BtnSin.Size = New System.Drawing.Size(59, 52)
         Me.BtnSin.TabIndex = 20
         Me.BtnSin.Text = "sin"
         Me.BtnSin.UseVisualStyleBackColor = True
@@ -373,9 +373,9 @@ Partial Class Form3
         Me.BtnBorrarTodo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnBorrarTodo.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnBorrarTodo.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BtnBorrarTodo.Location = New System.Drawing.Point(505, 224)
+        Me.BtnBorrarTodo.Location = New System.Drawing.Point(455, 192)
         Me.BtnBorrarTodo.Name = "BtnBorrarTodo"
-        Me.BtnBorrarTodo.Size = New System.Drawing.Size(70, 70)
+        Me.BtnBorrarTodo.Size = New System.Drawing.Size(59, 52)
         Me.BtnBorrarTodo.TabIndex = 23
         Me.BtnBorrarTodo.Text = "C"
         Me.BtnBorrarTodo.UseVisualStyleBackColor = True
@@ -388,9 +388,9 @@ Partial Class Form3
         Me.BtnBorrarUltimo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnBorrarUltimo.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnBorrarUltimo.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BtnBorrarUltimo.Location = New System.Drawing.Point(505, 148)
+        Me.BtnBorrarUltimo.Location = New System.Drawing.Point(455, 116)
         Me.BtnBorrarUltimo.Name = "BtnBorrarUltimo"
-        Me.BtnBorrarUltimo.Size = New System.Drawing.Size(70, 70)
+        Me.BtnBorrarUltimo.Size = New System.Drawing.Size(59, 52)
         Me.BtnBorrarUltimo.TabIndex = 24
         Me.BtnBorrarUltimo.Text = "CE"
         Me.BtnBorrarUltimo.UseVisualStyleBackColor = True
@@ -403,9 +403,9 @@ Partial Class Form3
         Me.BtnLog.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnLog.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnLog.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BtnLog.Location = New System.Drawing.Point(505, 300)
+        Me.BtnLog.Location = New System.Drawing.Point(455, 268)
         Me.BtnLog.Name = "BtnLog"
-        Me.BtnLog.Size = New System.Drawing.Size(70, 70)
+        Me.BtnLog.Size = New System.Drawing.Size(59, 52)
         Me.BtnLog.TabIndex = 25
         Me.BtnLog.Text = "log"
         Me.BtnLog.UseVisualStyleBackColor = True
@@ -418,9 +418,9 @@ Partial Class Form3
         Me.BtnTan.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnTan.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnTan.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BtnTan.Location = New System.Drawing.Point(505, 376)
+        Me.BtnTan.Location = New System.Drawing.Point(455, 344)
         Me.BtnTan.Name = "BtnTan"
-        Me.BtnTan.Size = New System.Drawing.Size(70, 70)
+        Me.BtnTan.Size = New System.Drawing.Size(59, 52)
         Me.BtnTan.TabIndex = 26
         Me.BtnTan.Text = "tan"
         Me.BtnTan.UseVisualStyleBackColor = True
@@ -433,9 +433,9 @@ Partial Class Form3
         Me.BtnFactorial.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnFactorial.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnFactorial.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BtnFactorial.Location = New System.Drawing.Point(429, 224)
+        Me.BtnFactorial.Location = New System.Drawing.Point(379, 192)
         Me.BtnFactorial.Name = "BtnFactorial"
-        Me.BtnFactorial.Size = New System.Drawing.Size(70, 70)
+        Me.BtnFactorial.Size = New System.Drawing.Size(59, 52)
         Me.BtnFactorial.TabIndex = 27
         Me.BtnFactorial.Text = "n!"
         Me.BtnFactorial.UseVisualStyleBackColor = True
@@ -448,9 +448,9 @@ Partial Class Form3
         Me.BtnBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnBorrar.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnBorrar.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BtnBorrar.Location = New System.Drawing.Point(429, 148)
+        Me.BtnBorrar.Location = New System.Drawing.Point(379, 116)
         Me.BtnBorrar.Name = "BtnBorrar"
-        Me.BtnBorrar.Size = New System.Drawing.Size(70, 70)
+        Me.BtnBorrar.Size = New System.Drawing.Size(59, 52)
         Me.BtnBorrar.TabIndex = 28
         Me.BtnBorrar.Text = "<-"
         Me.BtnBorrar.UseVisualStyleBackColor = True
@@ -463,9 +463,9 @@ Partial Class Form3
         Me.BtnSumar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnSumar.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnSumar.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BtnSumar.Location = New System.Drawing.Point(266, 148)
+        Me.BtnSumar.Location = New System.Drawing.Point(228, 116)
         Me.BtnSumar.Name = "BtnSumar"
-        Me.BtnSumar.Size = New System.Drawing.Size(70, 70)
+        Me.BtnSumar.Size = New System.Drawing.Size(59, 52)
         Me.BtnSumar.TabIndex = 29
         Me.BtnSumar.Text = "+"
         Me.BtnSumar.UseVisualStyleBackColor = True
@@ -478,9 +478,9 @@ Partial Class Form3
         Me.BtnRestar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnRestar.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnRestar.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BtnRestar.Location = New System.Drawing.Point(266, 224)
+        Me.BtnRestar.Location = New System.Drawing.Point(228, 192)
         Me.BtnRestar.Name = "BtnRestar"
-        Me.BtnRestar.Size = New System.Drawing.Size(70, 70)
+        Me.BtnRestar.Size = New System.Drawing.Size(59, 52)
         Me.BtnRestar.TabIndex = 30
         Me.BtnRestar.Text = "-"
         Me.BtnRestar.UseVisualStyleBackColor = True
@@ -493,9 +493,9 @@ Partial Class Form3
         Me.BtnMultiplicar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnMultiplicar.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnMultiplicar.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BtnMultiplicar.Location = New System.Drawing.Point(266, 300)
+        Me.BtnMultiplicar.Location = New System.Drawing.Point(228, 268)
         Me.BtnMultiplicar.Name = "BtnMultiplicar"
-        Me.BtnMultiplicar.Size = New System.Drawing.Size(70, 70)
+        Me.BtnMultiplicar.Size = New System.Drawing.Size(59, 52)
         Me.BtnMultiplicar.TabIndex = 31
         Me.BtnMultiplicar.Text = "*"
         Me.BtnMultiplicar.UseVisualStyleBackColor = True
@@ -508,9 +508,9 @@ Partial Class Form3
         Me.BtnDividir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnDividir.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnDividir.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BtnDividir.Location = New System.Drawing.Point(266, 376)
+        Me.BtnDividir.Location = New System.Drawing.Point(228, 344)
         Me.BtnDividir.Name = "BtnDividir"
-        Me.BtnDividir.Size = New System.Drawing.Size(70, 70)
+        Me.BtnDividir.Size = New System.Drawing.Size(59, 52)
         Me.BtnDividir.TabIndex = 32
         Me.BtnDividir.Text = "/"
         Me.BtnDividir.UseVisualStyleBackColor = True
@@ -518,7 +518,7 @@ Partial Class Form3
         'BtnVolver1
         '
         Me.BtnVolver1.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnVolver1.Location = New System.Drawing.Point(849, 417)
+        Me.BtnVolver1.Location = New System.Drawing.Point(770, 367)
         Me.BtnVolver1.Name = "BtnVolver1"
         Me.BtnVolver1.Size = New System.Drawing.Size(75, 29)
         Me.BtnVolver1.TabIndex = 33
@@ -531,17 +531,17 @@ Partial Class Form3
         Me.Txt2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Txt2.Enabled = False
         Me.Txt2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Txt2.Location = New System.Drawing.Point(29, 29)
+        Me.Txt2.Location = New System.Drawing.Point(24, 21)
         Me.Txt2.Multiline = True
         Me.Txt2.Name = "Txt2"
-        Me.Txt2.Size = New System.Drawing.Size(610, 59)
+        Me.Txt2.Size = New System.Drawing.Size(554, 47)
         Me.Txt2.TabIndex = 34
         '
         'CBFrom
         '
         Me.CBFrom.FormattingEnabled = True
         Me.CBFrom.Items.AddRange(New Object() {"Japanese YEN - JPY", "Euro - EUR", "British Pound - GBP", "U.S. Dollar - USD"})
-        Me.CBFrom.Location = New System.Drawing.Point(129, 143)
+        Me.CBFrom.Location = New System.Drawing.Point(106, 107)
         Me.CBFrom.Name = "CBFrom"
         Me.CBFrom.Size = New System.Drawing.Size(121, 21)
         Me.CBFrom.TabIndex = 35
@@ -549,11 +549,11 @@ Partial Class Form3
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Open Sans", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.Window
+        Me.Label1.Font = New System.Drawing.Font("Open Sans", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Label1.Location = New System.Drawing.Point(6, 16)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(291, 37)
+        Me.Label1.Size = New System.Drawing.Size(216, 27)
         Me.Label1.TabIndex = 36
         Me.Label1.Text = "Conversor de divisas"
         '
@@ -562,7 +562,7 @@ Partial Class Form3
         Me.Txt3.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Txt3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Txt3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Txt3.Location = New System.Drawing.Point(129, 91)
+        Me.Txt3.Location = New System.Drawing.Point(106, 55)
         Me.Txt3.Multiline = True
         Me.Txt3.Name = "Txt3"
         Me.Txt3.Size = New System.Drawing.Size(144, 32)
@@ -572,7 +572,7 @@ Partial Class Form3
         '
         Me.CBTo.FormattingEnabled = True
         Me.CBTo.Items.AddRange(New Object() {"Japanese YEN - JPY", "Euro - EUR", "British Pound - GBP", "U.S. Dollar - USD"})
-        Me.CBTo.Location = New System.Drawing.Point(129, 181)
+        Me.CBTo.Location = New System.Drawing.Point(106, 145)
         Me.CBTo.Name = "CBTo"
         Me.CBTo.Size = New System.Drawing.Size(121, 21)
         Me.CBTo.TabIndex = 38
@@ -590,9 +590,9 @@ Partial Class Form3
         Me.GroupBox1.Controls.Add(Me.CBTo)
         Me.GroupBox1.Controls.Add(Me.CBFrom)
         Me.GroupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.GroupBox1.Location = New System.Drawing.Point(688, 70)
+        Me.GroupBox1.Location = New System.Drawing.Point(584, 41)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(303, 341)
+        Me.GroupBox1.Size = New System.Drawing.Size(261, 294)
         Me.GroupBox1.TabIndex = 39
         Me.GroupBox1.TabStop = False
         '
@@ -601,7 +601,7 @@ Partial Class Form3
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(86, 178)
+        Me.Label4.Location = New System.Drawing.Point(63, 142)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(29, 22)
         Me.Label4.TabIndex = 44
@@ -612,7 +612,7 @@ Partial Class Form3
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(75, 140)
+        Me.Label3.Location = New System.Drawing.Point(52, 104)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(40, 22)
         Me.Label3.TabIndex = 43
@@ -621,11 +621,11 @@ Partial Class Form3
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Open Sans", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Open Sans", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(6, 91)
+        Me.Label2.Location = New System.Drawing.Point(10, 68)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(117, 27)
+        Me.Label2.Size = New System.Drawing.Size(82, 19)
         Me.Label2.TabIndex = 42
         Me.Label2.Text = "Convertir: "
         '
@@ -635,7 +635,7 @@ Partial Class Form3
         Me.Txt4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Txt4.Enabled = False
         Me.Txt4.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Txt4.Location = New System.Drawing.Point(42, 277)
+        Me.Txt4.Location = New System.Drawing.Point(19, 223)
         Me.Txt4.Multiline = True
         Me.Txt4.Name = "Txt4"
         Me.Txt4.Size = New System.Drawing.Size(208, 43)
@@ -644,7 +644,7 @@ Partial Class Form3
         'BtnConvertir
         '
         Me.BtnConvertir.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnConvertir.Location = New System.Drawing.Point(90, 230)
+        Me.BtnConvertir.Location = New System.Drawing.Point(77, 182)
         Me.BtnConvertir.Name = "BtnConvertir"
         Me.BtnConvertir.Size = New System.Drawing.Size(103, 29)
         Me.BtnConvertir.TabIndex = 40
@@ -658,7 +658,7 @@ Partial Class Form3
         Me.BackColor = System.Drawing.Color.Black
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1014, 479)
+        Me.ClientSize = New System.Drawing.Size(860, 419)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Txt2)
         Me.Controls.Add(Me.BtnVolver1)

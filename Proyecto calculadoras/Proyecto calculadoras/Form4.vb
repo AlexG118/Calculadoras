@@ -304,4 +304,50 @@
     End Sub
 #End Region
 
+#Region "Conversor"
+    Dim moneda, moneda1, result As Decimal
+    Dim cambio As Boolean
+
+    Private Sub Enterbutton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnConvertir.Click
+
+        If cambio = True Then
+            moneda = Val(Txt3.Text)
+            result = moneda * 0.00601012
+            Txt4.Text = result
+        Else
+            moneda = Val(Txt3.Text)
+            result = moneda * 166.386
+            Txt4.Text = result
+        End If
+
+    End Sub
+
+    Private Sub BtnCambio_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnCambio.Click
+        Dim intercambio As Decimal
+
+        If cambio = True Then
+            cambio = False
+            lbl1.Text = "PESETAS: "
+            lbl2.Text = "EUROS: "
+            intercambio = Txt3.Text
+            Txt3.Text = Txt4.Text
+            Txt4.Text = intercambio
+        Else
+            cambio = True
+            lbl1.Text = "EUROS: "
+            lbl2.Text = "PESETAS: "
+            intercambio = Txt3.Text
+            Txt3.Text = Txt4.Text
+            Txt4.Text = intercambio
+        End If
+
+    End Sub
+
+    Private Sub BtnBorrarConv_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnBorrarConv.Click
+        Txt3.Text = ""
+        Txt4.Text = ""
+    End Sub
+
+#End Region
+
 End Class
