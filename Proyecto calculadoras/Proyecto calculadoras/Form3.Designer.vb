@@ -59,13 +59,14 @@ Partial Class Form3
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Txt3 = New System.Windows.Forms.TextBox()
         Me.CBTo = New System.Windows.Forms.ComboBox()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.gb1 = New System.Windows.Forms.GroupBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Txt4 = New System.Windows.Forms.TextBox()
         Me.BtnConvertir = New System.Windows.Forms.Button()
-        Me.GroupBox1.SuspendLayout()
+        Me.cb1 = New System.Windows.Forms.CheckBox()
+        Me.gb1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Btn1
@@ -518,7 +519,7 @@ Partial Class Form3
         'BtnVolver1
         '
         Me.BtnVolver1.Font = New System.Drawing.Font("Open Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnVolver1.Location = New System.Drawing.Point(770, 367)
+        Me.BtnVolver1.Location = New System.Drawing.Point(530, 367)
         Me.BtnVolver1.Name = "BtnVolver1"
         Me.BtnVolver1.Size = New System.Drawing.Size(75, 29)
         Me.BtnVolver1.TabIndex = 33
@@ -577,24 +578,25 @@ Partial Class Form3
         Me.CBTo.Size = New System.Drawing.Size(121, 21)
         Me.CBTo.TabIndex = 38
         '
-        'GroupBox1
+        'gb1
         '
-        Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
-        Me.GroupBox1.Controls.Add(Me.Label4)
-        Me.GroupBox1.Controls.Add(Me.Label3)
-        Me.GroupBox1.Controls.Add(Me.Label2)
-        Me.GroupBox1.Controls.Add(Me.Txt4)
-        Me.GroupBox1.Controls.Add(Me.BtnConvertir)
-        Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Controls.Add(Me.Txt3)
-        Me.GroupBox1.Controls.Add(Me.CBTo)
-        Me.GroupBox1.Controls.Add(Me.CBFrom)
-        Me.GroupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.GroupBox1.Location = New System.Drawing.Point(584, 41)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(261, 294)
-        Me.GroupBox1.TabIndex = 39
-        Me.GroupBox1.TabStop = False
+        Me.gb1.BackColor = System.Drawing.Color.Transparent
+        Me.gb1.Controls.Add(Me.Label4)
+        Me.gb1.Controls.Add(Me.Label3)
+        Me.gb1.Controls.Add(Me.Label2)
+        Me.gb1.Controls.Add(Me.Txt4)
+        Me.gb1.Controls.Add(Me.BtnConvertir)
+        Me.gb1.Controls.Add(Me.Label1)
+        Me.gb1.Controls.Add(Me.Txt3)
+        Me.gb1.Controls.Add(Me.CBTo)
+        Me.gb1.Controls.Add(Me.CBFrom)
+        Me.gb1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.gb1.Location = New System.Drawing.Point(659, 62)
+        Me.gb1.Name = "gb1"
+        Me.gb1.Size = New System.Drawing.Size(261, 294)
+        Me.gb1.TabIndex = 39
+        Me.gb1.TabStop = False
+        Me.gb1.Visible = False
         '
         'Label4
         '
@@ -651,6 +653,21 @@ Partial Class Form3
         Me.BtnConvertir.Text = "Convertir"
         Me.BtnConvertir.UseVisualStyleBackColor = True
         '
+        'cb1
+        '
+        Me.cb1.AutoSize = True
+        Me.cb1.BackColor = System.Drawing.Color.Transparent
+        Me.cb1.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.cb1.FlatAppearance.BorderSize = 2
+        Me.cb1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cb1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.cb1.Location = New System.Drawing.Point(520, 268)
+        Me.cb1.Name = "cb1"
+        Me.cb1.Size = New System.Drawing.Size(124, 38)
+        Me.cb1.TabIndex = 40
+        Me.cb1.Text = "Conversor de" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Divisas"
+        Me.cb1.UseVisualStyleBackColor = False
+        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -658,8 +675,9 @@ Partial Class Form3
         Me.BackColor = System.Drawing.Color.Black
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(860, 419)
-        Me.Controls.Add(Me.GroupBox1)
+        Me.ClientSize = New System.Drawing.Size(656, 419)
+        Me.Controls.Add(Me.cb1)
+        Me.Controls.Add(Me.gb1)
         Me.Controls.Add(Me.Txt2)
         Me.Controls.Add(Me.BtnVolver1)
         Me.Controls.Add(Me.BtnDividir)
@@ -694,8 +712,8 @@ Partial Class Form3
         Me.Controls.Add(Me.Btn1)
         Me.Name = "Form3"
         Me.Text = "Calculadora de oficina"
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
+        Me.gb1.ResumeLayout(False)
+        Me.gb1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -736,10 +754,11 @@ Partial Class Form3
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Txt3 As System.Windows.Forms.TextBox
     Friend WithEvents CBTo As System.Windows.Forms.ComboBox
-    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents gb1 As System.Windows.Forms.GroupBox
     Friend WithEvents Txt4 As System.Windows.Forms.TextBox
     Friend WithEvents BtnConvertir As System.Windows.Forms.Button
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents cb1 As System.Windows.Forms.CheckBox
 End Class
